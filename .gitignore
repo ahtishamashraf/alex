@@ -1,0 +1,16 @@
+# Dependencies and Next.js build output
+node_modules/
+.next/
+out/
+
+# Local environment files
+.env*
+!.env.example
+
+# Alex's supplied photography is intentionally deployment-provided.
+# Binary media cannot be included in the source-only repository.
+public/alex-fegan-cutout.png
+public/alex-fegan.jpg
+
+npm-debug.log*
+.DS_Store
